@@ -7,6 +7,10 @@ let package = Package(
     name: "AGSwiftPackage",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
+	platforms: [
+        		.iOS(.v11)
+	        	.watchOS(.v5)
+    	],
         .library(
             name: "AGSwiftPackage",
             targets: ["AGSwiftPackage"]),
