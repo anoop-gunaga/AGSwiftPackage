@@ -1,2 +1,3 @@
 # AGSwiftPackage
-Swift package test repo
+
+A description of this package.
